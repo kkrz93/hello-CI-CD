@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class HelloWorldTest {
+public class HelloWorldTest {
     
     private HelloWorld helloWorld = new HelloWorld(); 
     
