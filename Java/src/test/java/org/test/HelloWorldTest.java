@@ -13,4 +13,9 @@ public class HelloWorldTest {
         String actual = helloWorld.helloWorld();
         assertEquals("Hello World!", actual);
     }
+    
+    @Test
+    public void shouldBeFailed() {
+        throw new RuntimeException();
+    }
 }
