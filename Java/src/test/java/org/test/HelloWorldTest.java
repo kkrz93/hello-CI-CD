@@ -1,16 +1,16 @@
 package org.test;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 public class HelloWorldTest {
-    
-    private HelloWorld helloWorld = new HelloWorld(); 
-    
+
+    private HelloWorld helloWorld = new HelloWorld();
+
     @Test
     public void shouldReturnHelloWorld() {
         String actual = helloWorld.helloWorld();
-        assertEquals("Hello World!", actual);	
+        assertEquals("Hello World!", actual);
     }
 }
