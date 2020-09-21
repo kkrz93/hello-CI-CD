@@ -1,8 +1,8 @@
 package org.test;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class HelloWorldTest {
     
@@ -11,6 +11,6 @@ class HelloWorldTest {
     @Test
     public void shouldReturnHelloWorld() {
         String actual = helloWorld.helloWorld();
-        assertEquals(actual, "Hello World!");	
+        assertEquals("Hello World!", actual);	
     }
 }
